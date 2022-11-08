@@ -1,0 +1,225 @@
+/* колір заголовків  #212121*/
+/* колір основного тексту #757575 */
+/* колір лого #000000 */
+/* колір акценту/лого #2196F3 */
+/* основний колір фону  #FFFFFF */
+/* вторинний колір фону #F5F4FA */
+/* вторинний колір фону #2F303A */
+/* вторинний колір адреса color: rgba(255, 255, 255, 0.6); */
+/* колір фон кнопка #F5F4FA; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-black-color: #000000;
+  --primary-white-color: #ffffff;
+  --sec-bgr-color: #2f303a;
+  --thirth-bgr-color: #f5f4fa;
+}
+
+/* стайл основа */
+body {
+  font-family: Roboto, sans-serif;
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+/* стайл лінків */
+a {
+  text-decoration: none;
+}
+/* hero titel*/
+.titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+/***** стайл хедер******************************* */
+/* стайл лого */
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-back {
+  color: var(--logo-black-color);
+}
+
+.logo-back-sec {
+  color: var(--primary-white-color);
+}
+
+/* стайл навігації */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+/* стайл списки */
+.list {
+  list-style: none;
+}
+
+/* стайл навігації.меню */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+/* .site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+} */
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* стайл контактів */
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+/* стайл кнопка */
+.button {
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--title-text-color);
+  background-color: var(--thirth-bgr-color);
+}
+.button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/*****main index.html*************** */
+
+/* стайл hero */
+.hero {
+  background-color: var(--sec-bgr-color);
+}
+
+/* стайл лголовна кнопка */
+.button.main {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* стайл секція переваги */
+.sub-titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+/* стайл секція робота */
+.section-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.description{
+  letter-spacing: 0.03em;
+}
+
+
+.team {
+  background-color: var(--thirth-bgr-color);
+} 
+/* стайл секція команда */
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 00.03em;
+  color: var(--title-text-color);
+}
+
+.name.pos {
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+/******стайл футер ****************** */
+
+.ground {
+  background-color: var(--sec-bgr-color);
+}
+
+.adr {
+  font-style: normal;
+  letter-spacing: 00.03em;
+  color: var(--primary-white-color);
+}
+.adr .contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.adr .contacts-footer:hover,
+.adr .contacts-footer:focus {
+  color: var(--accent-color);
+}
+
+/******main portfolio.htlm************************************/
+/* стайл кнопка меню */
+.button.current {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.primary {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+/* стайл назва клієнт */
+.customer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 00.06em;
+  color: var(--title-text-color);
+}
+/* стиль продукту */
+.product {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 00.03em;
+  color: var(--primary-text-color);
+}
