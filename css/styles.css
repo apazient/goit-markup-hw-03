@@ -351,8 +351,7 @@ p {
 }
 /*стайл списки кнопки*/
 .list.works.flex {
-  margin-bottom: 50px;
-  align-items: center;
+  margin-bottom: 50px;  
   justify-content: center;
 }
 /******стайл фільтр***********/
