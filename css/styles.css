@@ -72,8 +72,6 @@ p {
 
 /* стайл лого */
 .logo {
-  margin-right: 93px;
-
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -81,6 +79,10 @@ p {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+.logo.up{
+margin-right: 93px;
+}
+
 
 .logo-back {
   color: var(--logo-black-color);
@@ -312,17 +314,20 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+/*лого у футері*/
+.logo.down {
+  display: block;
+  margin-bottom: 20px;
+}
 
 .adr {
-  margin-top: 20px;
-
+  
   font-style: normal;
   letter-spacing: 00.03em;
   color: var(--primary-white-color);
 }
 .list-adr{
-  margin-top: 9px;
+  
   margin-bottom: 9px;
 }
 .adr .contacts-footer {
